@@ -1,0 +1,34 @@
+@import '../../../styles/colors.scss';
+
+.edit-column-section {
+    position: relative;
+
+    .edit-row-column {
+        width: fit-content;
+        border: 1px solid;
+        padding: 4px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        
+    }
+
+    .show-edit-column-component {
+        display: block;
+        position: absolute;
+        z-index: 99;
+        background: white;
+        height: auto;
+        width: 300px;
+        padding: 16px;
+        top: 45px;
+        box-shadow: 2px 2px 2px 2px  rgba($secondary, 0.2);
+    }
+
+    .hide-edit-column-component {
+        display: none;
+    }
+
+    .checkbox-input {
+        margin-right: 10px;
+    }
+}

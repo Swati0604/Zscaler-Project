@@ -1,0 +1,43 @@
+// ######################################## //
+// ## Sidebar.SCSS ## //
+// ######################################## //
+
+@import '../../styles/colors.scss';
+
+.page-style{
+    .sidebar{
+        width: 285px;
+        position: fixed;
+        background: $primaryBg;
+        height: 100%;
+        padding-left: 40px;
+        z-index: 999;
+
+        .side-link{
+            color: $white;
+            font-size: 24px;
+            margin-bottom: 20px;
+
+            &.opacity{
+                opacity: 0.6;
+            }
+        }
+
+        .bank-name{
+            color: $white;
+            font-size: 32px;
+            border-bottom: 2px solid $white;
+            padding-top: 50px;
+            margin: 0 30px 50px 0;
+        }
+
+        .side-link-container{
+            margin-top: 50px;
+        }
+    }
+
+    .page-content{
+        margin-left: 285px;
+        padding: 50px 40px 0;
+    }
+}

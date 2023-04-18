@@ -1,0 +1,39 @@
+@import '../../styles/colors.scss';
+
+.attacker-details-page {
+    margin: 20px 40px 150px 0;
+
+    .attacker-details-heading {
+        margin-bottom: 30px;
+    }
+
+}
+
+.delete-modal-container {
+    padding: 30px;
+
+    .modal-text {
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+
+    .modal-button {
+        height: 40px;
+        width: 200px;
+        width: 190px;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: none;
+        color: $white;
+
+        &.delete-button {
+            background-color: $red;
+        }
+
+        &.delete-cancel-button {
+            background-color: $theme-green;
+        }
+    }
+
+
+}
